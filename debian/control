@@ -1,0 +1,43 @@
+Source: libtools
+Section: python
+Priority: extra
+Build-Depends: debhelper (>= 9~),
+               dh-python,
+               python-all,
+               python-setuptools,
+               python3-all (>= 2.6.6-3~),
+               python3-setuptools
+X-Python-Version: >= 2.7
+X-Python3-Version: >= 3.4
+Maintainer: Khurshid Alam <khurshid.alam@linuxmail.org>
+Standards-Version: 3.9.3
+Homepage: https://launchpad.net/weather-indicator
+
+Package: python3-libtools
+Architecture: all
+Depends: python3-gi,
+         python-gobject,
+         gir1.2-glib-2.0,
+         gir1.2-secret-1,
+         gir1.2-notify-0.7,
+         gir1.2-polkit-1.0,
+         gir1.2-gtk-3.0,
+         gir1.2-ebook-1.2, gir1.2-ebookcontacts-1.2,
+         libglib2.0-bin, libgirepository-1.0-1,         
+         ${misc:Depends},
+         ${python:Depends},
+         
+Package: python-libtools
+Architecture: all
+Depends: python-gi,
+         python-gobject,
+         gir1.2-glib-2.0,
+         gir1.2-secret-1,
+         gir1.2-notify-0.7,
+         gir1.2-polkit-1.0,
+         gir1.2-gtk-3.0,
+         gir1.2-ebook-1.2, gir1.2-ebookcontacts-1.2,
+         libglib2.0-bin, libgirepository-1.0-1,         
+         ${misc:Depends},
+         ${python:Depends},
+Description: More shopisticated wrapper around standard library

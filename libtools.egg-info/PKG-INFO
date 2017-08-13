@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: libtools
+Version: 1.25.0
+Summary: More shopisticated wrapper around standard library
+Home-page: http://dev.libtools.com
+Author: Khurshid Alam
+Author-email: khurshid.alam@linuxmail.org
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Production/Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3
