@@ -11,7 +11,7 @@ X-Python-Version: >= 2.7
 X-Python3-Version: >= 3.4
 Maintainer: Khurshid Alam <khurshid.alam@linuxmail.org>
 Standards-Version: 3.9.3
-Homepage: https://launchpad.net/weather-indicator
+Homepage: https://github.com/khurshid-alam/Libtools
 
 Package: python3-libtools
 Architecture: all
@@ -26,6 +26,7 @@ Depends: python3-gi,
          libglib2.0-bin, libgirepository-1.0-1,         
          ${misc:Depends},
          ${python:Depends},
+Description: More shopisticated wrapper around standard library
          
 Package: python-libtools
 Architecture: all
