@@ -19,6 +19,10 @@
 import gi
 gi.require_version('GLib', '2.0')
 from gi.repository import GLib
+from libtools import pretty
+
+class SpawnError (Exception):
+    "Error starting application"
 
 def spawn_async(argv, in_dir="."):
     """
