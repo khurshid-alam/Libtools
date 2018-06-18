@@ -11,6 +11,7 @@ X-Python-Version: >= 2.7
 X-Python3-Version: >= 3.4
 Maintainer: Khurshid Alam <khurshid.alam@linuxmail.org>
 Standards-Version: 3.9.3
+Description: More shopisticated wrapper around standard library
 Homepage: https://github.com/khurshid-alam/Libtools
 
 Package: python3-libtools
@@ -42,3 +43,5 @@ Depends: python-gi,
          ${misc:Depends},
          ${python:Depends},
 Description: More shopisticated wrapper around standard library
+
+

@@ -4,6 +4,13 @@ import datetime
 import dropbox
 from dropbox.exceptions import ApiError
 
+def file_exists_in_db(dbx,path):
+    try:
+        dbx.files_get_metadata(path)
+        return True
+    except:
+        return False
+
 def load_json_from_db(dbx, path):
     try:
         m, res = dbx.files_download(path)
